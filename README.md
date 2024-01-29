@@ -1,2 +1,2 @@
 # CSE151A_UrbanAnimals
-UNVEILING PATTERNS: PREDICTIVE MODELING OF ANIMAL DISPOSITION IN URBAN SETTINGS
+Unveiling patterns: predictive modeling of animal disposition inubran settings 
