@@ -1,5 +1,5 @@
 # CSE151A_UrbanAnimals
-Unveiling patterns: predictive modeling of animal disposition in urban settings
+Unveiling patterns: predictive modeling of animal disposition in urban settings.
 Link to project notebook: https://github.com/PaulaEsteban2000/CSE151A_UrbanAnimals/blob/8d883ee58b6b1c4a9531b54182da76779e851f41/notebook.ipynb
 
 
