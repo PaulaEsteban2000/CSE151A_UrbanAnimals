@@ -38,6 +38,8 @@ We have started to work separately into different groups, each developing a diff
 
 After getting to some promising conclussions in decission trees, logistic regression and perceptrons, we decided the first model we are presenting is the perceptron. This is because both train and test accuracies present similar proper results. We are getting a higher rate of accuracy than expected on the model, making results convincing at the end, so we can infer our model is not overfitting them. If we were to improve, we could definitely try different activation functions, using a different learning rate, adjusting the number of nodes per layer, etc. This would be done with hyperparameter tuning to find the best parameters given the large number of different possible combinations.
 
+![perceptron](graph_perceptron.png)
+
 The next two models we are thinking of developing are a decision tree and possibly either logistic regression or SVM. This is because as said before, the work we've already started to make progress on seems promising on these models. SVM seems to do a good job with multivariable classification, so perhaps developing that model would be useful.
 
 Here is the link to the perceptron notebook: https://github.com/PaulaEsteban2000/CSE151A_UrbanAnimals/blob/main/perceptron.ipynb
