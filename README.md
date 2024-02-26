@@ -36,7 +36,7 @@ Finally, we looked at the condition the dogs where in.
 First model training:
 We have started to work separately into different groups, each developing a different first mode simultaneaously: decision tree, logistical regression, perceptron and SVM.
 
-After getting to some promising conclussions in decission trees, logistic regression and perceptrons, we decided the first model we are presenting is the perceptron. This is because both train and test accuracies present similar proper results. We are getting a higher rate of accuracy than expected on the model, making results convincing at the end, so we can infer our model is not overfitting them. If we were to improve, we could definitely try different activation functions, using a different learning rate, adjusting the number of nodes per layer, etc. This would be done with hyperparameter tuning to find the best parameters given the large number of different possible combinations.
+After getting to some promising conclussions in decission trees, logistic regression and perceptrons, we decided the first model we are presenting is the perceptron. This is because both train and test accuracies present similar proper results. The test and train accuracies are about 0.5319 and 0.5371, respectively. We are getting a higher rate of accuracy than expected on the model, making results convincing at the end, so we can infer our model is not overfitting them. If we were to improve the mode, we could definitely try different activation functions, using a different learning rate, and adjusting the number of nodes per layer. This would be done with hyperparameter tuning to find the best parameters given the large number of different possible combinations.
 
 ![perceptron](graph_perceptron.png)
 
