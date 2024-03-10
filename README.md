@@ -72,3 +72,7 @@ How did this model perform comparing to your first and why?_
 
 ![DT](https://github.com/PaulaEsteban2000/CSE151A_UrbanAnimals/blob/main/dt.png)
 
+
+
+Here is the link to the decistion treek notebook https://github.com/PaulaEsteban2000/CSE151A_UrbanAnimals/blob/main/decisiontree_notebook.ipynb
+
