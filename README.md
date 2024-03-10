@@ -46,33 +46,22 @@ Here is the link to the perceptron notebook: https://github.com/PaulaEsteban2000
 
 
 __Second model training:__
-On this second turn-in, we're leaning towards going with decision tree for miletsone 4. Like we mentioned earlier on this README file, we tried different models when we first started our project, and eventhough our neural network achieved better initial performance than our decision tree, we feel like the decision tree has more options for hyperparameter tuning.
+On this next turn-in, we're leaning towards going with decision tree for miletsone 4. Like we mentioned earlier on this README file, we tried different models when we first started our project, and eventhough our neural network achieved better initial performance than our decision tree, we feel like the decision tree has more options for hyperparameter tuning. Therefore, we are picking decision tree for this milestone because we think that with more time in our hands, we'll be able to dive deeper into tuning the decision tree to get a final better result on our project. 
 
-Therefore, we are picking decision tree because we think that with more time in our hands, we'll be able to dive deeper into tuning the decision tree to get a final better result on our project. This is the model we are going to be tackling next. We're hoping to get better results next time.
+Nevertheless, we first tried working with our logistic NN to see which results we would be able to get. We first evaluated our data, and we still think it works well enough with what we're trying to achieve, so we trained our neural network with added activation functions and layers.
+We haven't done any parameter tuning, feature extension or K-fold cross validation in our model, which might explain why the accuracy value was not too high. We might have taken into consideration one of these methods to improve our model's accuracy.
 
-We first have evaluated our data, and we still think it works well enough with what we're trying to achieve, so we trained our neural network with added activatio functions and layers.
-We haven't done any parameter tuning, feature extension or K-fold cross validation in our model, which might explain why the accuracy value was not too high. We might have taken into consideration one of the previous methods to improve our model's accuracy.
-
-__Here would go a picture of comparison between training vs test error (sorry idk how to do it)___
-_And we would have to answer these questions: 
-Where does your model fit in the fitting graph, how does it compare to your first model?
-How did this model perform comparing to your first and why?_
-
-Our NN model fit and had better performance. Its clear that in our first model the test accuracy was fluctuating too much thus showing that it was not being trained very well. Our new NN model shows that
-the test error is relatively low and in the same range from around [0.1295,.1310], it shows that the model was relatively well.
+Our NN model fit and had better performance. Its clear that in our first model the test accuracy was fluctuating too much thus showing that it was not being trained very well and might show underfitting signs. Our new NN model shows that the test error is relatively low and in the same range from around [0.1295,.1310], it shows that the model was relatively well.
+Here is a graph showing the results we got:
 
 ![NN](https://github.com/PaulaEsteban2000/CSE151A_UrbanAnimals/blob/main/nn.png)
 
 Here is the link to the logistical neural network notebook: https://github.com/PaulaEsteban2000/CSE151A_UrbanAnimals/blob/main/logistical_regr.ipynb
 
-__Here would go a picture of comparison between training vs test error (sorry idk how to do it)___
-_And we would have to answer these questions: 
-Where does your model fit in the fitting graph, how does it compare to your first model?
-How did this model perform comparing to your first and why?_
+Like we just mentioned above, our final decision was to go with the deicion tree because it achieved better performance than model 1 and the logistic NN. We haven't done any hyperparameter tuning, but we believe it would be useful for acquiring better performance, and we will try to work on it once we have more time. Here are the promising fitting results:
 
 ![DT](https://github.com/PaulaEsteban2000/CSE151A_UrbanAnimals/blob/main/dt.png)
 
-
-
 Here is the link to the decistion treek notebook https://github.com/PaulaEsteban2000/CSE151A_UrbanAnimals/blob/main/decisiontree_notebook.ipynb
 
+We are thinking about finishing and improving our SVM model for the next milestone. This is because as said before on this README, SVM seems to do a good job with multivariable classification, so perhaps developing that model would be useful for our particular dataset.
