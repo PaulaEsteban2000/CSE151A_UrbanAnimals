@@ -58,6 +58,17 @@ _And we would have to answer these questions:
 Where does your model fit in the fitting graph, how does it compare to your first model?
 How did this model perform comparing to your first and why?_
 
+Our NN model fit and had better performance. Its clear that in our first model the test accuracy was fluctuating too much thus showing that it was not being trained very well. Our new NN model shows that
+the test error is relatively low and in the same range from around [0.1295,.1310], it shows that the model was relatively well.
+
 ![NN](https://github.com/PaulaEsteban2000/CSE151A_UrbanAnimals/blob/main/nn.png)
 
 Here is the link to the logistical neural network notebook: https://github.com/PaulaEsteban2000/CSE151A_UrbanAnimals/blob/main/logistical_regr.ipynb
+
+__Here would go a picture of comparison between training vs test error (sorry idk how to do it)___
+_And we would have to answer these questions: 
+Where does your model fit in the fitting graph, how does it compare to your first model?
+How did this model perform comparing to your first and why?_
+
+![DT](https://github.com/PaulaEsteban2000/CSE151A_UrbanAnimals/blob/main/dt.png)
+
