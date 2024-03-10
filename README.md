@@ -36,21 +36,21 @@ Finally, we looked at the condition the dogs where in.
 __First model training:__
 We have started to work separately into different groups, each developing a different first mode simultaneaously: decision tree, logistical regression, perceptron and SVM.
 
-After getting to some promising conclussions in decission trees, logistic regression and perceptrons, we decided the first model we are presenting is the perceptron. This is because both train and test accuracies present similar proper results. The test and train accuracies are about 0.5319 and 0.5371, respectively. We are getting a higher rate of accuracy than expected on the model, making results convincing at the end, so we can infer our model is not overfitting them. If we were to improve the mode, we could definitely try different activation functions, using a different learning rate, and adjusting the number of nodes per layer. This would be done with hyperparameter tuning to find the best parameters given the large number of different possible combinations.
+After getting to some promising conclussions in decission trees, neural network and perceptrons, we decided the first model we are presenting is the perceptron. This is because both train and test accuracies present similar proper results. The test and train accuracies are about 0.5319 and 0.5371, respectively. We are getting a higher rate of accuracy than expected on the model, making results convincing at the end, so we can infer our model is not overfitting them. If we were to improve the mode, we could definitely try different activation functions, using a different learning rate, and adjusting the number of nodes per layer. This would be done with hyperparameter tuning to find the best parameters given the large number of different possible combinations.
 
 ![perceptron](graph_perceptron.png)
 
-The next two models we are thinking of developing are a decision tree and possibly either logistic regression or SVM. This is because as said before, the work we've already started to make progress on seems promising on these models. SVM seems to do a good job with multivariable classification, so perhaps developing that model would be useful.
+The next two models we are thinking of developing are a decision tree and possibly either neural network or SVM. This is because as said before, the work we've already started to make progress on seems promising on these models. SVM seems to do a good job with multivariable classification, so perhaps developing that model would be useful.
 
 Here is the link to the perceptron notebook: https://github.com/PaulaEsteban2000/CSE151A_UrbanAnimals/blob/main/perceptron.ipynb
 
 
 __Second model training:__
-On this second turn-in, we're leaning towards going with logistic regression for miletsone 4. Like we mentioned earlier on this README file, we tried different models when we first started our project, and eventhough our logistic regression achieved better initial performance than our decision tree, we feel like this first one has less options for hyperparameter tuning.
+On this second turn-in, we're leaning towards going with decision tree for miletsone 4. Like we mentioned earlier on this README file, we tried different models when we first started our project, and eventhough our neural network achieved better initial performance than our decision tree, we feel like the decision tree has more options for hyperparameter tuning.
 
-Therefore, we are picking logistic regression because we think that with more time in our hands, we'll be able to dive deeper into tuning the decision tree to get a final better result on our project. This is the model we are going to be tackling next. We're hoping to get better results next time.
+Therefore, we are picking decision tree because we think that with more time in our hands, we'll be able to dive deeper into tuning the decision tree to get a final better result on our project. This is the model we are going to be tackling next. We're hoping to get better results next time.
 
-We first have evaluated our data, and we still think it works well enough with what we're trying to achieve, so we trained our logistic regression.
+We first have evaluated our data, and we still think it works well enough with what we're trying to achieve, so we trained our neural network with added activatio functions and layers.
 We haven't done any parameter tuning, feature extension or K-fold cross validation in our model, which might explain why the accuracy value was not too high. We might have taken into consideration one of the previous methods to improve our model's accuracy.
 
 __Here would go a picture of comparison between training vs test error (sorry idk how to do it)___
@@ -58,4 +58,6 @@ _And we would have to answer these questions:
 Where does your model fit in the fitting graph, how does it compare to your first model?
 How did this model perform comparing to your first and why?_
 
-Here is the link to the logistic regression notebook: https://github.com/PaulaEsteban2000/CSE151A_UrbanAnimals/blob/main/logistical_regres.ipynb
+![NN]([image_url](https://github.com/PaulaEsteban2000/CSE151A_UrbanAnimals/blob/main/nn.png)
+
+Here is the link to the logistical neural network notebook: https://github.com/PaulaEsteban2000/CSE151A_UrbanAnimals/blob/main/logistical_regr.ipynb
