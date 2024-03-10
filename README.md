@@ -58,6 +58,6 @@ _And we would have to answer these questions:
 Where does your model fit in the fitting graph, how does it compare to your first model?
 How did this model perform comparing to your first and why?_
 
-![NN]([image_url](https://github.com/PaulaEsteban2000/CSE151A_UrbanAnimals/blob/main/nn.png)
+![NN](https://github.com/PaulaEsteban2000/CSE151A_UrbanAnimals/blob/main/nn.png)
 
 Here is the link to the logistical neural network notebook: https://github.com/PaulaEsteban2000/CSE151A_UrbanAnimals/blob/main/logistical_regr.ipynb
