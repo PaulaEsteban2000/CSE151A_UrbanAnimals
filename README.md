@@ -46,22 +46,16 @@ Here is the link to the perceptron notebook: https://github.com/PaulaEsteban2000
 
 
 __Second model training:__
-On this next turn-in, we're leaning towards going with decision tree for miletsone 4. Like we mentioned earlier on this README file, we tried different models when we first started our project, and eventhough our neural network achieved better initial performance than our decision tree, we feel like the decision tree has more options for hyperparameter tuning. Therefore, we are picking decision tree for this milestone because we think that with more time in our hands, we'll be able to dive deeper into tuning the decision tree to get a final better result on our project. 
+On this next turn-in, we're leaning towards going with logistic regression for miletsone 4. Like we mentioned earlier on this README file, we tried different models when we first started our project, and eventhough our perceptron achieved better initial performance than our regression, we figured out this might be beacause it is a different but also valid approach to help animal control take better care of the calls they get. Let us explain the changes we implemented.
 
-Nevertheless, we first tried working with our logistic NN to see which results we would be able to get. We first evaluated our data, and we still think it works well enough with what we're trying to achieve, so we trained our neural network with added activation functions and layers.
-We haven't done any parameter tuning, feature extension or K-fold cross validation in our model, which might explain why the accuracy value was not too high. We might have taken into consideration one of these methods to improve our model's accuracy.
+What we thought of doing is changing the outcome of the regression in to a binary one. We could consider 'NERVOUS', 'DANGEROUS', and 'SCARED' temperaments as 'sensitive' cases, while 'FRIENDLY' and 'NORMAL' are just 'normal' (in other words, not worth additional caution or resources). We first evaluated our data, and we still think it works well enough with what we're trying to achieve, so we got straight to the coding. 
 
-Our NN model fit and had better performance. Its clear that in our first model the test accuracy was fluctuating too much thus showing that it was not being trained very well and might show underfitting signs. Our new NN model shows that the test error is relatively low and in the same range from around [0.1295,.1310], it shows that the model was relatively well.
-Here is a graph showing the results we got:
+We haven't done any parameter tuning, feature extension or K-fold cross validation in our model, which might explain why the accuracy value was not the highest, be we got pretty decent results so we are happy with the outcome. Nevertheless, we might have taken into consideration one of these methods to improve our model's accuracy a little more given we had more time. 
 
-![NN](https://github.com/PaulaEsteban2000/CSE151A_UrbanAnimals/blob/main/nn.png)
+Our new regression model shows that the test error is relatively low and it gives us an accuracy of 78%, which shows that the model was relatively well. Here is a graph showing the results we got:
 
-Here is the link to the logistical neural network notebook: https://github.com/PaulaEsteban2000/CSE151A_UrbanAnimals/blob/main/logistical_regr.ipynb
+__INPUT NEW LOGISTIC REGRESSION GRAPH HERE__
 
-Like we just mentioned above, our final decision was to go with the deicion tree because it achieved better performance than model 1 and the logistic NN. We haven't done any hyperparameter tuning, but we believe it would be useful for acquiring better performance, and we will try to work on it once we have more time. Here are the promising fitting results:
+Here is the link to the logistical regression notebook: https://github.com/PaulaEsteban2000/CSE151A_UrbanAnimals/blob/main/logistical_regr.ipynb
 
-![DT](https://github.com/PaulaEsteban2000/CSE151A_UrbanAnimals/blob/main/dt.png)
-
-Here is the link to the decistion treek notebook https://github.com/PaulaEsteban2000/CSE151A_UrbanAnimals/blob/main/decisiontree_notebook.ipynb
-
-We are thinking about finishing and improving our SVM model for the next milestone. This is because as said before on this README, SVM seems to do a good job with multivariable classification, so perhaps developing that model would be useful for our particular dataset.
+We are thinking about turning in a Decision Tree model for the next milestone. This is because it seems to do a good job with multivariable classification, so perhaps developing that model would be useful for our particular dataset. Also, we feel like the decision tree has more options for hyperparameter tuning. Therefore, we are picking decision tree for next milestone because we think that with more time in our hands, we'll be able to dive deeper into tuning the decision tree to get a final better result on our project. 
