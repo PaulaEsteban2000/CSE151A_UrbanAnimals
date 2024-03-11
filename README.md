@@ -40,7 +40,7 @@ After getting to some promising conclussions in decission trees, neural network 
 
 ![perceptron](graph_perceptron.png)
 
-The next two models we are thinking of developing are a decision tree and possibly either neural network or SVM. This is because as said before, the work we've already started to make progress on seems promising on these models. SVM seems to do a good job with multivariable classification, so perhaps developing that model would be useful.
+The next two models we are thinking of developing are a logistic regressor and possibly either decision tree or SVM. This is because as said before, the work we've already started to make progress on seems promising on these models. SVM seems to do a good job with multivariable classification, so perhaps developing that model would be useful.
 
 Here is the link to the perceptron notebook: https://github.com/PaulaEsteban2000/CSE151A_UrbanAnimals/blob/main/perceptron.ipynb
 
@@ -48,13 +48,15 @@ Here is the link to the perceptron notebook: https://github.com/PaulaEsteban2000
 __Second model training:__
 On this next turn-in, we're leaning towards going with logistic regression for miletsone 4. Like we mentioned earlier on this README file, we tried different models when we first started our project, and eventhough our perceptron achieved better initial performance than our regression, we figured out this might be beacause it is a different but also valid approach to help animal control take better care of the calls they get. Let us explain the changes we implemented.
 
-What we thought of doing is changing the outcome of the regression in to a binary one. We could consider 'NERVOUS', 'DANGEROUS', and 'SCARED' temperaments as 'sensitive' cases, while 'FRIENDLY' and 'NORMAL' are just 'normal' (in other words, not worth additional caution or resources). We first evaluated our data, and we still think it works well enough with what we're trying to achieve, so we got straight to the coding. 
+While working on implementing logistic regression, we came to the realization that we could condense our 5-column classificaiton problem into a binary one by 'grouping' the normal and sensitive temperments together. Specifically, we combined 'NERVOUS', 'DANGEROUS', and 'SCARED' temperments into the 'sensitive' category, and the 'NORMAL' and 'FRIENDLY' into 'normal'. This effectively changes our prediction target to simply 'sensitive' and 'normal' cases - allowing us to determine what cases are predicted to require more resources and/or expertise.
 
-We haven't done any parameter tuning, feature extension or K-fold cross validation in our model, which might explain why the accuracy value was not the highest, be we got pretty decent results so we are happy with the outcome. Nevertheless, we might have taken into consideration one of these methods to improve our model's accuracy a little more given we had more time. 
+The primary hyperparameter that we tuned for our logistic regressor was its regularization strength. Regularization effectively tells us how closesly to fit to our training data, and tuning it allows us to determine when we cross the threshold from underfitting to overfitting. Below is a graph of the relationship between regularization strength and accuracy on both the training and test sets:
 
-Our new regression model shows that the test error is relatively low and it gives us an accuracy of 78%, which shows that the model was relatively well. Here is a graph showing the results we got:
+![logreg](log_fit.png)
 
-__INPUT NEW LOGISTIC REGRESSION GRAPH HERE__
+According to the graph above, the ideal regularization strength to be used when fitting a logistic regressor to our dataset is somewhere close to 10^-1. Our new regression model produced relatively better results than our initial model, giving us an accuracy of roughly 78%. 
+
+We haven't done any futher parameter tuning, feature extension or K-fold cross validation in our model, which might explain why the accuracy value was not the highest, be we got pretty decent results so we are happy with the outcome. Nevertheless, we might have taken into consideration one of these methods to improve our model's accuracy a little more given we had more time.
 
 Here is the link to the logistical regression notebook: https://github.com/PaulaEsteban2000/CSE151A_UrbanAnimals/blob/main/logistical_regr.ipynb
 
